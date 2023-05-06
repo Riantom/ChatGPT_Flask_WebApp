@@ -41,7 +41,7 @@ openai.ChatCompletion.create(
 )
 ```
 An example API response looks as follows:
-```json
+```
 {
  'id': 'chatcmpl-6p9XYPYSTTRi0xEviKjjilqrWU2Ve',
  'object': 'chat.completion',
