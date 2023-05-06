@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Lets Chat!</h1>
+    <form method="POST" action="/result">
+        <input type="text" name="message" id="message" placeholder="Enter your question or prompt" required>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

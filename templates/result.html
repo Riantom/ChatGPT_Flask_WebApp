@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Lets Chat</h1>
+    <br>
+    <h2>Your prompt:</h2>
+    <p>{{ message }}</p>
+    <h2>ChatGPT Response:</h2>
+    <p>{{ response }}</p>
+    <a href="/">Ask another question or prompt</a>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
