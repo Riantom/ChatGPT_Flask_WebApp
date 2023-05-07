@@ -4,7 +4,7 @@ import uuid
 import key
 openai.api_key = key.API_KEY
 app = Flask(__name__)
-app.secret_key = 'secret_riantom'
+app.secret_key = 'ANY_SECRET_KEY'
 app.config['SESSION_TYPE'] = 'filesystem'
 # define the Flask app routes
 
