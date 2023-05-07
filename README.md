@@ -22,6 +22,8 @@ For testing the app run the following command:
 Navigate to [localhost:5000](http://127.0.0.1:5000) in your web browser. Type your message or question in the input field and press Enter or click "Send".
 The chatbot will generate a response based on your input and display it on the screen.
 
+To see the live version, visit [here](http://ribyaann.pythonanywhere.com)
+
 ## API Calls
 This application uses OpenAI GPT-3.5 Turbo API to generate responses. To use the API, you must have an API key, which you can get from the OpenAI website.
 
