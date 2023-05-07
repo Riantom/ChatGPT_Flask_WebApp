@@ -3,18 +3,25 @@
 
 <head>
     <title>Result</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
-    <h1>Lets Chat</h1>
-    <br>
-    <h2>Your prompt:</h2>
-    <p>{{ message }}</p>
-    <h2>ChatGPT Response:</h2>
-    <p>{{ response }}</p>
-    <a href="/">Ask another question or prompt</a>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <header>
+        <h1>Lets Chat!</h1>
+    </header>
+    <div class="container">
+        <h1>Result</h1>
+        <div class="form">
+            <h2 class="prompt">Your prompt</h2>
+            <p>{{ message }}</p>
+            <br><br><br>
+            <h2 class="prompt">Response</h2>
+            <p>{{ response }}</p>
+        </div>
+        <a href="/">Ask another question</a>
+    </div>
 </body>
 
 </html>
